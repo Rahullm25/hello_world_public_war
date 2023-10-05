@@ -23,7 +23,7 @@
       state: directory
       mode: 0777
 
-  - name: backup file with owner and permissions
+  #- name: backup file with owner and permissions
     copy:
       src: /opt/tomcat/webapps/webapp.war
       dest: /home/tomcat/backup/webapp.war
